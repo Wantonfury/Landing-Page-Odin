@@ -45,6 +45,8 @@ button {
     font-weight: bold;
     padding: 10px;
     border-radius: 10px;
+    width: 100px;
+    height: 35px;
 }
 
 .hero {
@@ -147,5 +149,43 @@ button {
 }
 
 .sign-up {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0px 80px 0px;
+}
+
+.notification {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    border-radius: 10px;
+    gap: 60px;
+    color: white;
+}
+
+.notification-text h6 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+    font-weight: 800px;
+}
+
+.notification-text p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.notification button {
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
