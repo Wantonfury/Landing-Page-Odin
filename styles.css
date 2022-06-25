@@ -123,13 +123,13 @@ button {
 }
 
 .quote {
-    margin-top: 48px;
+    margin: 48px 0;
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    padding: 40px 48px;
+    padding: 120px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,4 +144,8 @@ button {
     align-self: flex-end;
     padding-right: 15%;
     margin: 0px 0px;
+}
+
+.sign-up {
+    
 }
