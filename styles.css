@@ -5,6 +5,7 @@ body {
 
 .header, .hero, .footer {
     background-color: #1F2937;
+    display: flex;
 }
 
 .hero h1 {
