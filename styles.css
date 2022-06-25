@@ -43,11 +43,13 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .hero {
     flex-direction: column;
-    padding: 16px 128px;
+    padding: 16px 200px;
     align-items: center;
 }
 
@@ -58,7 +60,6 @@ button {
 .text {
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 50%;
 }
 
 .cta {
@@ -77,8 +78,9 @@ button {
 }
 
 .hero img {
-    min-width: 300px;
-    max-height: 300px;
+    min-width: 30%;
+    max-width: 30%;
     flex-shrink: 0;
-    flex-basis: auto;
+    flex-grow: 0;
+    flex-basis: 0;
 }
