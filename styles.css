@@ -84,3 +84,64 @@ button {
     flex-grow: 0;
     flex-basis: 0;
 }
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.information h2 {
+    margin: 48px 0px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.cards img {
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-width: 200px;
+}
+
+.card p {
+    flex-wrap: wrap;
+    max-width: 200px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.quote {
+    margin-top: 48px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 40px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote p {
+    max-width: 75%;
+    margin: 0px 0px;
+}
+
+.quote h5 {
+    align-self: flex-end;
+    padding-right: 15%;
+    margin: 0px 0px;
+}

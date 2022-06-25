@@ -4,3 +4,4 @@ This is a project that creates a website from scratch following a image of the w
 
 ## This is the provided design:
 ![design](./images/odin-project.png)
+
