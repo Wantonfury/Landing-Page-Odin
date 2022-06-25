@@ -30,3 +30,8 @@ button {
     color: #F9FAF8;
     font-weight: bold;
 }
+
+.hero img {
+    max-width: 400px;
+    height: auto;
+}
